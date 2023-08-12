@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="Script.js"></script>
+<link rel="stylesheet" href="style.css">
+<title>Student Ragistration form</title>
+</head>
+<body>
+<div id="header">
+    <img src="logo.jpg"alt="">
+</div>
+<div class="container">
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+<table cellpadding="2" width="90%" align="center"
+cellspacing="2">
+
+<tr class="form-control">
+<td colspan=2>
+<h2>Student Registration Form</h2>
+</td>
+</tr>
+
+<tr class="form-control">
+<td>Student  First name</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr class="form-control">
+<td>Student Last Name</td>
+<td><input type="text" name="fathername" id="fathername"
+size="30"></td>
+</tr>
+<tr class="form-control">
+<td>father Name</td>
+<td><input type="text" name="paddress" id="paddress" size="30"></td>
+</tr>
+
+<tr class="form-control">
+<td> Student Address</td>
+<td><input type="text" name="personaladdress"
+id="personaladdress" size="30"></td>
+</tr>
+
+<tr>
+<td>gender</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>Course</td>
+<td><select name="Course" style="width:200px;">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></td>
+</tr>
+
+<tr class="form-control">
+<td>City</td>
+<td><select name="City" style="width:200px;">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">bettiah</option>
+<option value="Mumbai">motihari</option>
+<option value="Goa">patna</option>
+<option value="Patna">chenni</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>District</td>
+<td><select name="District" style="width:200px;">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">w.champaran</option>
+<option value="Mumbai">E.champaran</option>
+<option value="patana">Muzaffarpur</option>
+<option value="Patna">Tamilnadu</option>
+</select></td>
+
+</tr>
+
+<tr>
+<td>State</td>
+<td>
+<select Name="State" style="width:200px;">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">bihar</option>
+<option value="Mumbai">bihar</option>
+<option value="Goa">bihar</option>
+<option value="Patna">Tamilnadu</option>
+</select>
+</td>
+</tr>
+<tr class="form-control">
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+</tr>
+<tr class="form-control">
+<td>Emai-Id</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+<tr class="form-control">
+<td>Note</td>
+<td><input type="text" name="note" id="note" size="30"></td>
+</tr>
+
+<tr class="form-control">
+<td>MobileNo: (+91)</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+<tr class="formbutton">
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>
